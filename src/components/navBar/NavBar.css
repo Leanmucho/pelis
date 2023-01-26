@@ -1,0 +1,98 @@
+:root {
+    --color-negro: #15181d;
+    --color-gris: #818183;
+    --color-cian: rgb(0, 199, 206);
+    --color-azul: #040b13;
+}
+
+.nb-main {
+    width: 100%;
+    height: 70px;
+    background-color: var(--color-negro);
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; 
+
+    line-height: 20px;
+    padding: 0px 10%;
+    text-align: center;
+    margin: 0 auto;
+
+    display: grid; 
+    grid-template-columns: 1.3fr 0.7fr; 
+    grid-template-rows: 1fr;
+
+    border-bottom: 0.5px solid #818183;
+}
+
+/* SEARCHER */
+
+.nb-searcher{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.nb-form{
+    width: 100%;
+    display: flex;
+}
+.nb-form button{
+    color: var(--color-cian);
+}
+
+/* Quitarle el borde cuando esta activado */
+.nb-input {
+    border: none;
+    width: 50%;
+    left: 0;
+    background-color: transparent;
+    color: #818183;
+    font-size: 1.2rem;
+}
+
+.ico-search {
+    background-color: #15181d00;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* LOGO */
+
+.nb-logo {
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    color: var(--color-cian);
+}
+
+.nb-logo img {
+    object-fit: cover;
+    width: 170px;
+    height: 70px;
+}
+
+.dropdown .btn {
+    color: var(--color-cian);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: rgba(51, 51, 51, 0);
+}
+.dropdown-menu {
+    background-color: var(--color-azul);
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover {
+    background-color: var(--color-negro);
+    color: white;
+}
