@@ -1,0 +1,19 @@
+:root {
+    --color-negro: #15181d;
+    --color-gris: #818183;
+    --color-cian: rgb(0, 199, 206);
+    --color-azul: #040b13;
+}
+
+.categories {
+    background-color: var(--color-negro);
+    height: 35vh;
+    align-items: center;
+    padding-top: 45px;
+    color: white;
+    display: flex;
+}
+.categories-child {
+    margin: 0 auto;
+    display: flex;
+}

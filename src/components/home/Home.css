@@ -1,0 +1,10 @@
+:root {
+    --color-negro: #15181d;
+    --color-gris: #818183;
+    --color-cian: rgb(0, 199, 206);
+    --color-azul: #040b13;
+}
+.home{
+    height: 100vh;
+    background-color: var(--color-azul);
+}

@@ -1,10 +1,16 @@
-import NavBar from "./components/navBar/NavBar"
+import {Routes, Route} from "react-router-dom"
+import Layout from "./components/Layout/Layout"
+import Home from "./components/home/Home"
 
 function App() {
 
   return (
     <div>
-      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route path="*" element={<Home />} />
+        </Route>
+      </Routes>
     </div>
   )
 }
