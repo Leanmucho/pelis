@@ -7,11 +7,14 @@
 
 .categories {
     background-color: var(--color-negro);
-    height: 35vh;
+    height: 31vh;
     align-items: center;
-    padding-top: 45px;
+    padding-top: 72px;
     color: white;
     display: flex;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
 }
 .categories-child {
     margin: 0 auto;

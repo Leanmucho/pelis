@@ -1,16 +1,16 @@
 import "./Card.css"
 
 export default function Card(props){
-
+    const {svg,cardTitulo} = props;
     return(
         <div className="ct-card">
             <a href="#">
-            <div class="card text-bg-dark">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">{props.svg}</h5>
-                    <p class="card-text"><strong>{props.cardTitulo}</strong></p>
-                </div>
-            </div>  
+                <div className="card text-bg-dark">
+                    <div className="card-img-overlay">
+                        <h5 className="card-title">{svg}</h5>
+                            <p className="card-text"><strong>{cardTitulo}</strong></p>
+                    </div>
+                </div>  
             </a>
         </div>
     )
